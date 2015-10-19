@@ -11,8 +11,8 @@ public class DataRow implements Serializable {
     int id ;
     public DataRow(){
         classLabel = -1 ;
-        columns = new ArrayList<Integer>();
+        columns = new ArrayList<Double>();
     }
-    public List<Integer> columns ;
+    public List<Double> columns ;
     public int classLabel;
 }
